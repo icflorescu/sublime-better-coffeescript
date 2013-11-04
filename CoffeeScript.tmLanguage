@@ -3,9 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>comment</key>
-	<string>CoffeeScript Syntax: version 1</string>
+	<string>IcedCoffeeScript</string>
 	<key>fileTypes</key>
 	<array>
+    <string>iced</string>
 		<string>coffee</string>
 		<string>Cakefile</string>
 		<string>coffee.erb</string>
@@ -20,7 +21,7 @@
 	<key>keyEquivalent</key>
 	<string>^~C</string>
 	<key>name</key>
-	<string>CoffeeScript</string>
+	<string>ICS</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -226,7 +227,7 @@
 			<string>(?x)
 				\b(?&lt;![\.\$])(
 					break|by|catch|continue|else|finally|for|in|of|if|return|switch|
-					then|throw|try|unless|when|while|until|loop|do|(?&lt;=for)\s+own
+					then|throw|try|unless|when|while|until|loop|do|await|defer|(?&lt;=for)\s+own
 				)(?!\s*:)\b
 			</string>
 			<key>name</key>

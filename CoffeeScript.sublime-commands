@@ -1,46 +1,46 @@
 [
 	{
-		"caption": "Coffee: Check Syntax"
+		"caption": "ICS: Check Syntax"
 	,	"command": "check_syntax"
 	}
 ,	{
-		"caption": "Coffee: Quick Run Bar"
+		"caption": "ICS: Quick Run Bar"
 	,	"command": "quick_run_bar"
 	}
 ,	{
-		"caption": "Coffee: Run Cake Task"
+		"caption": "ICS: Run Cake Task"
 	,	"command": "run_cake_task"
 	}
 ,	{
-		"caption": "Coffee: Compile File"
+		"caption": "ICS: Compile File"
 	,	"command": "compile"
 	}
 ,	{
-		"caption": "Coffee: Display JavaScript"
+		"caption": "ICS: Display JavaScript"
 	,	"command": "compile_and_display", "args": {"opt": "-p"}
 	}
 ,	{
-		"caption": "Coffee: Display Lexer Tokens"
+		"caption": "ICS: Display Lexer Tokens"
 	,	"command": "compile_and_display", "args": {"opt": "-t"}
 	}
 ,	{
-		"caption": "Coffee: Display Parse Tree"
+		"caption": "ICS: Display Parse Tree"
 	,	"command": "compile_and_display", "args": {"opt": "-n"}
 	}
 ,	{
-		"caption": "Coffee: Toggle Watch Mode"
+		"caption": "ICS: Toggle Watch Mode"
 	,	"command": "toggle_watch"
 	}
 ,	{
-		"caption": "Coffee: Run Script / Selection"
+		"caption": "ICS: Run Script / Selection"
 	,	"command": "run_script"
 	}
 ,	{
-		"caption": "Coffee: Fast Compile"
+		"caption": "ICS: Fast Compile"
 	,	"command": "fast_compile"
 	}
 ,	{
-		"caption": "Coffee: Lint"
+		"caption": "ICS: Lint"
 	,	"command": "lint"
 	}
 ]

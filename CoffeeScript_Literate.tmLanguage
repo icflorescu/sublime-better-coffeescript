@@ -23,7 +23,7 @@
 		|(^|\s)\}
 		)</string>
 	<key>name</key>
-	<string>CoffeeScript (Literate)</string>
+	<string>ICS (Literate)</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -425,7 +425,7 @@
 																	# Raw
 							  | \\[\\`*_{}\[\]()#.!+\-&gt;]?+			# Escapes
 							  | \[
-								(				
+								(
 								        (?&lt;square&gt;					# Named group
 											[^\[\]\\]				# Match most chars
 								          | \\.						# Escaped chars
@@ -752,7 +752,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(?&lt;![\.\$])(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until|loop|do|(?&lt;=for)\s+own)(?!\s*:)\b</string>
+					<string>\b(?&lt;![\.\$])(break|by|catch|continue|else|finally|for|in|of|if|return|switch|then|throw|try|unless|when|while|until|loop|do|await|defer|(?&lt;=for)\s+own)(?!\s*:)\b</string>
 					<key>name</key>
 					<string>keyword.control.coffee</string>
 				</dict>
@@ -1166,7 +1166,7 @@
 			<key>match</key>
 			<string>(?x:
 				\!							# Images start with !
-				(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])	
+				(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])
 											# Match the link text.
 				([ ])?						# Space not allowed
 				(\()						# Opening paren for url
@@ -1337,7 +1337,7 @@
 																	# Raw
 							  | \\[\\`*_{}\[\]()#.!+\-&gt;]?+			# Escapes
 							  | \[
-								(				
+								(
 								        (?&lt;square&gt;					# Named group
 											[^\[\]\\]				# Match most chars
 								          | \\.						# Escaped chars
@@ -1588,7 +1588,7 @@
 			</dict>
 			<key>match</key>
 			<string>(?x:
-				(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])	
+				(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])
 											# Match the link text.
 				([ ])?						# Space not allowed
 				(\()						# Opening paren for url

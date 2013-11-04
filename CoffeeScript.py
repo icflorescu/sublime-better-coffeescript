@@ -85,11 +85,11 @@ def brew(args, source, cwd=None, callback=None):
         args.append("-s")
     else:
         args.append("-e")
-    return run("coffee", args=args, source=source.encode('utf-8'), callback=callback)
+    return run("iced", args=args, source=source.encode('utf-8'), callback=callback)
 
 
 def cake(task, cwd, callback=None):
-    return run("cake", args=task, cwd=cwd, callback=callback)
+    return run("icake", args=task, cwd=cwd, callback=callback)
 
 
 def isCoffee(view=None):
@@ -178,7 +178,7 @@ class CompileCommand(TextCommand):
             cwd = source_dir
         else:
             cwd = None
-        result = run("coffee", args=args, cwd=cwd)
+        result = run("iced", args=args, cwd=cwd)
 
         if result['okay'] is True:
             status = 'Compilation Succeeded'
@@ -264,7 +264,7 @@ class QuickRunBarCommand(WindowCommand):
             sublime.status_message('Syntax %s' % res["err"].split("\n")[0])
 
     def run(self):
-        self.window.show_input_panel('Coffee >', '', self.finish, None, None)
+        self.window.show_input_panel('ICS >', '', self.finish, None, None)
 
 
 class RunCakeTaskCommand(WindowCommand):
@@ -296,7 +296,7 @@ class RunCakeTaskCommand(WindowCommand):
         cake(task, cakepath, on_done)
 
     def run(self):
-        self.window.show_input_panel('Cake >', '', self.finish, None, None)
+        self.window.show_input_panel('Icake >', '', self.finish, None, None)
 
 
 #                               _

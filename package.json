@@ -1,18 +1,18 @@
 {
     "schema_version": "1.2",
-    "renamed_packages": { "sublime-better-coffeescript": "Better CoffeeScript" },
+    "renamed_packages": { "sublime-better-coffeescript": "Iced Coffee Script" },
     "packages": [
         {
-            "name": "Better CoffeeScript",
-            "description": "Syntax highlighting and checking, commands, shortcuts, snippets, watched compilation and more.",
-            "author": "aponxi",
-            "homepage": "https://github.com/aponxi/sublime-better-coffeescript",
-            "last_modified": "2013-05-26 05:04:41",
+            "name": "Iced Coffee Script",
+            "description": "Syntax highlighting and checking, commands, shortcuts, snippets, watched compilation and more. All credits belong to Logan Howlett.",
+            "author": "icflorescu",
+            "homepage": "https://github.com/icflorescu/sublime-better-coffeescript",
+            "last_modified": "2013-11-04 01:15:00",
             "platforms": {
                 "*": [
                     {
-                        "version": "0.7.0",
-                        "url": "https://nodeload.github.com/aponxi/sublime-better-coffeescript/zip/master"
+                        "version": "2.0.0",
+                        "url": "https://nodeload.github.com/icflorescu/sublime-better-coffeescript/zip/master"
                     }
                 ]
             }

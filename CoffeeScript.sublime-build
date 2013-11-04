@@ -5,12 +5,12 @@
 
 ,	"windows":
 	{	"path": "$PATH"
-	,	"cmd": ["cake.cmd", "sbuild"]
+	,	"cmd": ["icake.cmd", "sbuild"]
 	}
 
 ,	"variants":
 	[	{	"name": "Run",
-			"cmd": ["coffee", "$file"]
+			"cmd": ["iced", "$file"]
 		}
 	]
 }

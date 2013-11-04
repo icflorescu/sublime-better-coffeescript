@@ -1,3 +1,18 @@
+## IcedCoffeeScript support for Sublime Text 3
+
+This package is a custom fork of the excellent [sublime-better-coffeescript](https://github.com/aponxi/sublime-better-coffeescript) package, providing support for [IcedCoffeeScript](http://maxtaco.github.io/coffee-script/) language extensions.
+
+The `await` and `defer` keywords are properly highlighted and `iced`/`icake` are used instead of `coffee`/`cake` commands.
+
+I'll do my best to keep this fork in sync with the original repository.
+
+If you find this fork useful, please consider endorsing me on Coderwall. Thanks :-)
+
+[![endorse](https://api.coderwall.com/icflorescu/endorsecount.png)](https://coderwall.com/icflorescu)
+
+Original [sublime-better-coffeescript](https://github.com/aponxi/sublime-better-coffeescript) README:
+
+***
 	                                         __
 	   __     _____     ___     ___    __  _/\_\
 	 /'__`\  /\ '__`\  / __`\ /' _ `\ /\ \/'\/\ \
@@ -358,18 +373,21 @@ which coffee
 This path will go into the `binDir` setting.
 
 - I'm getting the error message `'coffee' is not recognized as an internal or external command,` when saving.
- 
+
 The coffee-script binary probably is not installed. Either install coffee-script or set `checkSyntaxOnSave` and `compileOnSave` to `false` in `Preferences > Package Settings > CoffeeScript > Settings - User`.
 
 
 
 # Latest Changelog
-### v0.7.0 01/June/2013
+### v2.0.0
 
-- merged st3 with master branch
-- now the sublime text 2 support is in st2 branch
-- fixed the @ highlight in language definitions
-- fixed an error you would get when it was looking for project settings when it wasn't a project we were editing
+* New written Watch Mode.
+* Line number tracking in Watch Mode.
+* Toggle 2 columns when enabling Watch Mode.
+* It is possible to compile with sourcemaps.
+* Compile litcofee files.
+* Auto-indent after `else\n`.
+* and other bugs fixes.
 
 # Special Thanks
 
