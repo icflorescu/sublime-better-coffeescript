@@ -61,8 +61,7 @@ Depending on your OS, `PACKAGE_PATH` can be:
 * [Building](#building)
 * [Settings](#settings)
 * [Special Thanks](#special-thanks)
-* [Support this Project: ![](https://www.gittip.com/assets/widgets/heart.gif) Tip Me!](https://www.gittip.com/aponxi/)
-* [Donate Me as little as you want!](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VBUW4M9LKTR62)
+
 
 # Overview
 
