@@ -11,7 +11,7 @@ Don't forget to support or donate to [Logan Howlett](https://github.com/aponxi),
 ## How to install
 
     cd PACKAGE_PATH
-    git clone https://github.com/icflorescu/sublime-better-coffeescript.git "Iced Coffee Script"
+    git clone https://github.com/icflorescu/sublime-iced-coffeescript.git
 
 Depending on your OS, `PACKAGE_PATH` can be:
 
@@ -386,7 +386,7 @@ The coffee-script binary probably is not installed. Either install coffee-script
 # Special Thanks
 
 
-Thanks to everyone who has contributed to this project. You guys rock! 
+Thanks to everyone who has contributed to this project. You guys rock!
 
 * [agibsonsw](https://github.com/agibsonsw) for his help in writing WatchMode
 

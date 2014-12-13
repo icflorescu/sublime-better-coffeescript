@@ -1,9 +1,9 @@
 {
     "schema_version": "1.2",
-    "renamed_packages": { "sublime-iced-coffeescript": "Iced Coffee Script" },
+    "renamed_packages": { "sublime-iced-coffeescript": "Iced CoffeeScript" },
     "packages": [
         {
-            "name": "Iced Coffee Script",
+            "name": "Iced CoffeeScript",
             "description": "Syntax highlighting and checking, commands, shortcuts, snippets, watched compilation and more. All credits belong to Logan Howlett.",
             "author": "icflorescu",
             "homepage": "https://github.com/icflorescu/sublime-iced-coffeescript",
