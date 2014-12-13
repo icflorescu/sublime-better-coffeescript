@@ -1,18 +1,18 @@
 {
     "schema_version": "1.2",
-    "renamed_packages": { "sublime-better-coffeescript": "Iced Coffee Script" },
+    "renamed_packages": { "sublime-iced-coffeescript": "Iced Coffee Script" },
     "packages": [
         {
             "name": "Iced Coffee Script",
             "description": "Syntax highlighting and checking, commands, shortcuts, snippets, watched compilation and more. All credits belong to Logan Howlett.",
             "author": "icflorescu",
-            "homepage": "https://github.com/icflorescu/sublime-better-coffeescript",
-            "last_modified": "2014-05-01 09:17:00",
+            "homepage": "https://github.com/icflorescu/sublime-iced-coffeescript",
+            "last_modified": "2014-12-13 18:00:00",
             "platforms": {
                 "*": [
                     {
                         "version": "2.0.0",
-                        "url": "https://nodeload.github.com/icflorescu/sublime-better-coffeescript/zip/master"
+                        "url": "https://nodeload.github.com/icflorescu/sublime-iced-coffeescript/zip/master"
                     }
                 ]
             }
