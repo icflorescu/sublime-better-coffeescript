@@ -4,7 +4,9 @@ This package is a custom fork of the excellent [sublime-better-coffeescript](htt
 
 The `await` and `defer` keywords are properly highlighted and `iced`/`icake` are used instead of `coffee`/`cake` commands.
 
-I'll do my best to keep this fork in sync with the original repository; if you find it useful, please consider endorsing me on Coderwall: [![endorse](https://api.coderwall.com/icflorescu/endorsecount.png)](https://coderwall.com/icflorescu)
+I'll do my best to keep this fork in sync with the original repository; if you find it useful, please consider endorsing me on LinkedIn:
+
+[![Ionut-Cristian Florescu on LinkedIn](https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png)](https://www.linkedin.com/in/icflorescu)
 
 Don't forget to support or donate to [Logan Howlett](https://github.com/aponxi), the author of the original [sublime-better-coffeescript](https://github.com/aponxi/sublime-better-coffeescript) package; see details below.
 
